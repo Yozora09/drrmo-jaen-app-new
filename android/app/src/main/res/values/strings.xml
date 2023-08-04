@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DRRMO Jaen App</string>
+    <string name="title_activity_main">DRRMO Jaen App</string>
+    <string name="package_name">com.drrmojaen.app</string>
+    <string name="custom_url_scheme">com.drrmojaen.app</string>
+</resources>
