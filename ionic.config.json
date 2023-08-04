@@ -1,0 +1,7 @@
+{
+  "name": "drrmo-jaen-app-new",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
