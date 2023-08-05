@@ -7,7 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationForm3Page implements OnInit {
 
+  password: string = 'password';
+  passwordShown: boolean = false;
+
   constructor() { }
+
+  // show password function
+  showPass() {
+    if(this.passwordShown) {
+      this.passwordShown = false;
+      this.password = 'password';
+    }
+    else {
+      this.passwordShown = true;
+      this.password = 'text';
+    }
+  }
 
   ngOnInit() {
   }
