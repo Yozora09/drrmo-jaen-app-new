@@ -3,5 +3,18 @@
 <!-- A Capstone Project -->
 
 <ion-content [fullscreen]="true">
-  
+  <!-- OnBoard Swiper Components -->
+  <swiper-container [pagination]="{clickable: true}" effect="coverflow">
+     <swiper-slide>
+         <app-page1></app-page1>
+     </swiper-slide>
+
+     <swiper-slide>
+          <app-page2></app-page2>
+     </swiper-slide>
+
+     <swiper-slide>
+          <app-page3></app-page3>
+     </swiper-slide>
+ </swiper-container>
 </ion-content>

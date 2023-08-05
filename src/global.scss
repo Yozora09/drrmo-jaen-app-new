@@ -24,3 +24,25 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+html {
+    scroll-behavior: smooth;
+}
+
+swiper-container {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+    --swiper-pagination-color: #0d8713;
+    --swiper-pagination-bullet-inactive-color: #363636;
+    --swiper-pagination-bullet-height: 11px;
+    --swiper-pagination-bullet-width: 11px;
+    --swiper-pagination-bullet-horizontal-gap: 7px;
+
+    --swiper-navigation-color: #0d8713;
+}
+
+ion-button {
+     text-transform: none;
+}

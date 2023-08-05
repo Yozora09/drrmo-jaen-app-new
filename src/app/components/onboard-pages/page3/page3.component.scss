@@ -1,0 +1,29 @@
+
+// Onboard Page 3 CSS Properties
+
+.container {
+    padding: 20px;
+}
+
+ion-button.button {
+    --background: #0d8713;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    position: absolute;
+
+    top: 85%;
+  
+    border: none;
+    left: 1.1rem;
+  
+    width: 90%;
+    height: 50px;
+    
+    font-family: Tahoma;
+    font-size: 20px;
+}
