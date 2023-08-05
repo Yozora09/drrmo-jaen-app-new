@@ -9,6 +9,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 import { Page1Component } from '../components/onboard-pages/page1/page1.component';
 import { Page2Component } from '../components/onboard-pages/page2/page2.component';
 import { Page3Component } from '../components/onboard-pages/page3/page3.component';
+import { StartBtnComponent } from '../components/start-btn/start-btn.component';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { Page3Component } from '../components/onboard-pages/page3/page3.componen
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, Page1Component, Page2Component, Page3Component],
+  declarations: [HomePage, Page1Component, Page2Component, Page3Component, StartBtnComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HomePageModule {}
